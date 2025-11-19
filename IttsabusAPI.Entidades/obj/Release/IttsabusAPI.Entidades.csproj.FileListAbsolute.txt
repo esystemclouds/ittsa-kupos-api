@@ -1,0 +1,12 @@
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\bin\Release\NLog.config
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\bin\Release\IttsabusAPI.Entidades.dll
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\bin\Release\IttsabusAPI.Entidades.pdb
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\bin\Release\Newtonsoft.Json.dll
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\bin\Release\NLog.dll
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\bin\Release\Newtonsoft.Json.xml
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\bin\Release\NLog.xml
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\obj\Release\IttsabusAPI.Entidades.csproj.AssemblyReference.cache
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\obj\Release\IttsabusAPI.Entidades.csproj.CoreCompileInputs.cache
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\obj\Release\Ittsabus.B9ADA469.Up2Date
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\obj\Release\IttsabusAPI.Entidades.dll
+D:\FUENTES\KUPOS\ITTSABUS\IttsabusAPI\IttsabusAPI.Entidades\obj\Release\IttsabusAPI.Entidades.pdb

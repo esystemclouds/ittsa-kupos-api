@@ -1,0 +1,54 @@
+2025-11-05 15:49:01.8931 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/confirmar-venta JsonEntrada: {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":860931,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":53,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":4,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"YB8864134",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 
+2025-11-05 15:49:01.9481 INFO loggerendpoint {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":860931,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":53,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":4,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"YB8864134",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 

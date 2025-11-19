@@ -1,0 +1,53 @@
+2025-08-21 05:52:09.7182 loggerendpoint System.Web.Http.Results.OkNegotiatedContentResult`1[IttsabusAPI.Entidades.MensajeResult] 
+2025-08-21 05:53:00.6614 loggerendpoint IttsabusAPI.Entidades.MensajeResult 
+2025-08-21 05:54:01.8527 loggerendpoint {"Codigoresultado":0,"Resultado":"OK","Data":[{"Id":"1","Nombre":"CHICLAYO"},{"Id":"2","Nombre":"CHIMBOTE"},{"Id":"3","Nombre":"LIMA"},{"Id":"4","Nombre":"MANCORA"},{"Id":"5","Nombre":"PAITA"},{"Id":"6","Nombre":"PIURA"},{"Id":"7","Nombre":"SULLANA"},{"Id":"8","Nombre":"TALARA"},{"Id":"9","Nombre":"TRUJILLO"},{"Id":"10","Nombre":"TUMBES"},{"Id":"11","Nombre":"ORGANOS"}]} 
+2025-08-21 05:54:41.5951 loggerendpoint {"Codigoresultado":0,"Resultado":"OK","Data":[{"Id":"1","Nombre":"CHICLAYO"},{"Id":"2","Nombre":"CHIMBOTE"},{"Id":"3","Nombre":"LIMA"},{"Id":"4","Nombre":"MANCORA"},{"Id":"5","Nombre":"PAITA"},{"Id":"6","Nombre":"PIURA"},{"Id":"7","Nombre":"SULLANA"},{"Id":"8","Nombre":"TALARA"},{"Id":"9","Nombre":"TRUJILLO"},{"Id":"10","Nombre":"TUMBES"},{"Id":"11","Nombre":"ORGANOS"}]} 
+2025-08-21 05:54:41.5951 loggerendpoint {"Codigoresultado":0,"Resultado":"OK","Data":[{"Id":"1","Nombre":"CHICLAYO"},{"Id":"2","Nombre":"CHIMBOTE"},{"Id":"3","Nombre":"LIMA"},{"Id":"4","Nombre":"MANCORA"},{"Id":"5","Nombre":"PAITA"},{"Id":"6","Nombre":"PIURA"},{"Id":"7","Nombre":"SULLANA"},{"Id":"8","Nombre":"TALARA"},{"Id":"9","Nombre":"TRUJILLO"},{"Id":"10","Nombre":"TUMBES"},{"Id":"11","Nombre":"ORGANOS"}]} 
+2025-08-21 05:57:11.5291 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"OK","Data":[{"Id":"1","Nombre":"CHICLAYO"},{"Id":"2","Nombre":"CHIMBOTE"},{"Id":"3","Nombre":"LIMA"},{"Id":"4","Nombre":"MANCORA"},{"Id":"5","Nombre":"PAITA"},{"Id":"6","Nombre":"PIURA"},{"Id":"7","Nombre":"SULLANA"},{"Id":"8","Nombre":"TALARA"},{"Id":"9","Nombre":"TRUJILLO"},{"Id":"10","Nombre":"TUMBES"},{"Id":"11","Nombre":"ORGANOS"}]} 
+2025-08-21 05:57:11.5291 ERROR loggerendpoint {"Codigoresultado":0,"Resultado":"OK","Data":[{"Id":"1","Nombre":"CHICLAYO"},{"Id":"2","Nombre":"CHIMBOTE"},{"Id":"3","Nombre":"LIMA"},{"Id":"4","Nombre":"MANCORA"},{"Id":"5","Nombre":"PAITA"},{"Id":"6","Nombre":"PIURA"},{"Id":"7","Nombre":"SULLANA"},{"Id":"8","Nombre":"TALARA"},{"Id":"9","Nombre":"TRUJILLO"},{"Id":"10","Nombre":"TUMBES"},{"Id":"11","Nombre":"ORGANOS"}]} 
+2025-08-21 06:00:09.5569 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/reservar-asiento JsonEntrada: {
+    "id_programacion":894927,
+    "id_asiento_venta":35298449,
+    "nu_asiento":48
+}
+ 
+2025-08-21 06:00:09.5569 INFO loggerendpoint {
+    "id_programacion":894927,
+    "id_asiento_venta":35298449,
+    "nu_asiento":48
+}
+ 
+2025-08-21 06:00:09.6792 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Asiento Bloqueado correctamente","Data":{"CodRespuesta":0,"Mensaje":"Asiento Bloqueado correctamente"}} 
+2025-08-21 06:01:25.8273 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/confirmar-venta JsonEntrada: {
+    "id_punto_venta":1, 
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1, 
+    "va_monto_total":35.0000,
+    "nu_operacion":"100130101",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":894927,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"PSB01",
+    "nu_referencia_safety":"PSB01",
+    "id_pagador":null,
+    "id_destino":6,
+    "id_origen":1
+}
+ 
+2025-08-21 06:01:25.8273 INFO loggerendpoint {
+    "id_punto_venta":1, 
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1, 
+    "va_monto_total":35.0000,
+    "nu_operacion":"100130101",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":894927,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"PSB01",
+    "nu_referencia_safety":"PSB01",
+    "id_pagador":null,
+    "id_destino":6,
+    "id_origen":1
+}
+ 
+2025-08-21 06:01:31.9027 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Venta Registrada correctamente","Data":{"id_cabecera_venta":7720417,"id_venta":8261479,"id_pedido":3478337,"CodRespuesta":0,"Mensaje":"Venta Registrada correctamente"}} 

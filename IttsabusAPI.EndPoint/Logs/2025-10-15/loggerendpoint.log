@@ -1,0 +1,744 @@
+2025-10-15 04:28:00.1317 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"OK","Data":[{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467531,"nu_fila":0,"nu_asiento":200,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467532,"nu_fila":0,"nu_asiento":47,"nu_piso":1,"co_estado_asiento":"VEN","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":1,"id_clase_asiento":"IP1","no_clase_asiento":"Asiento individual piso 01","va_precio":130.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467533,"nu_fila":0,"nu_asiento":48,"nu_piso":1,"co_estado_asiento":"VEN","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":2,"id_clase_asiento":"IP1","no_clase_asiento":"Asiento individual piso 01","va_precio":130.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467534,"nu_fila":0,"nu_asiento":51,"nu_piso":1,"co_estado_asiento":"VEN","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":3,"id_clase_asiento":"IP1","no_clase_asiento":"Asiento individual piso 01","va_precio":130.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467535,"nu_fila":0,"nu_asiento":52,"nu_piso":1,"co_estado_asiento":"VEN","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":4,"id_clase_asiento":"IP1","no_clase_asiento":"Asiento individual piso 01","va_precio":130.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467551,"nu_fila":0,"nu_asiento":4,"nu_piso":2,"co_estado_asiento":"VEN","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467552,"nu_fila":0,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":1,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467553,"nu_fila":0,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":2,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467554,"nu_fila":0,"nu_asiento":8,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":3,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467555,"nu_fila":0,"nu_asiento":12,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":4,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467556,"nu_fila":0,"nu_asiento":16,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":5,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467557,"nu_fila":0,"nu_asiento":20,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":6,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467558,"nu_fila":0,"nu_asiento":24,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":7,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467559,"nu_fila":0,"nu_asiento":28,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":8,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467560,"nu_fila":0,"nu_asiento":32,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":9,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467601,"nu_fila":0,"nu_asiento":36,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":10,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467602,"nu_fila":0,"nu_asiento":40,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":11,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467536,"nu_fila":1,"nu_asiento":0,"nu_piso":1,"co_estado_asiento":"VEN","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467537,"nu_fila":1,"nu_asiento":300,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":1,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467538,"nu_fila":1,"nu_asiento":0,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":2,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467539,"nu_fila":1,"nu_asiento":0,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":3,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467540,"nu_fila":1,"nu_asiento":0,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":4,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467561,"nu_fila":1,"nu_asiento":3,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467562,"nu_fila":1,"nu_asiento":200,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":1,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467563,"nu_fila":1,"nu_asiento":400,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":2,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467564,"nu_fila":1,"nu_asiento":7,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":3,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467565,"nu_fila":1,"nu_asiento":11,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":4,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467566,"nu_fila":1,"nu_asiento":15,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":5,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467567,"nu_fila":1,"nu_asiento":19,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":6,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467568,"nu_fila":1,"nu_asiento":23,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":7,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467569,"nu_fila":1,"nu_asiento":27,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":8,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467570,"nu_fila":1,"nu_asiento":31,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":9,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467603,"nu_fila":1,"nu_asiento":35,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":10,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467604,"nu_fila":1,"nu_asiento":39,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":11,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467541,"nu_fila":2,"nu_asiento":500,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467542,"nu_fila":2,"nu_asiento":46,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":1,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467543,"nu_fila":2,"nu_asiento":50,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":2,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467544,"nu_fila":2,"nu_asiento":54,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":3,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467545,"nu_fila":2,"nu_asiento":56,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":4,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467571,"nu_fila":2,"nu_asiento":300,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467572,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":1,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467573,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":2,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467574,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":3,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467575,"nu_fila":2,"nu_asiento":300,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":4,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467576,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":5,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467577,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":6,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467578,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":7,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467579,"nu_fila":2,"nu_asiento":300,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":8,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467580,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":9,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467605,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":10,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467606,"nu_fila":2,"nu_asiento":0,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":11,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467546,"nu_fila":3,"nu_asiento":0,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467547,"nu_fila":3,"nu_asiento":45,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":1,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467548,"nu_fila":3,"nu_asiento":49,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":2,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467549,"nu_fila":3,"nu_asiento":53,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":3,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467550,"nu_fila":3,"nu_asiento":55,"nu_piso":1,"co_estado_asiento":"LIB","no_tipo_asiento":"SOFA CAMA 160°","nu_columna":4,"id_clase_asiento":"CP1","no_clase_asiento":"Asiento compartido piso 01","va_precio":120.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467581,"nu_fila":3,"nu_asiento":2,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467582,"nu_fila":3,"nu_asiento":6,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":1,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467583,"nu_fila":3,"nu_asiento":10,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":2,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467584,"nu_fila":3,"nu_asiento":14,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":3,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467585,"nu_fila":3,"nu_asiento":18,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":4,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467586,"nu_fila":3,"nu_asiento":22,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":5,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467587,"nu_fila":3,"nu_asiento":26,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":6,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467588,"nu_fila":3,"nu_asiento":30,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":7,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467589,"nu_fila":3,"nu_asiento":34,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":8,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467590,"nu_fila":3,"nu_asiento":38,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":9,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467607,"nu_fila":3,"nu_asiento":42,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":10,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467608,"nu_fila":3,"nu_asiento":44,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":11,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467591,"nu_fila":4,"nu_asiento":1,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":0,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467592,"nu_fila":4,"nu_asiento":5,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":1,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467593,"nu_fila":4,"nu_asiento":9,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":2,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467594,"nu_fila":4,"nu_asiento":13,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":3,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467595,"nu_fila":4,"nu_asiento":17,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":4,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467596,"nu_fila":4,"nu_asiento":21,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":5,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467597,"nu_fila":4,"nu_asiento":25,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":6,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467598,"nu_fila":4,"nu_asiento":29,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":7,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467599,"nu_fila":4,"nu_asiento":33,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":8,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467600,"nu_fila":4,"nu_asiento":37,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":9,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467609,"nu_fila":4,"nu_asiento":41,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":10,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0},{"id_programacion_padre":900283,"id_programacion":900283,"id_asiento_venta":35467610,"nu_fila":4,"nu_asiento":43,"nu_piso":2,"co_estado_asiento":"LIB","no_tipo_asiento":"SEMI CAMA 140°","nu_columna":11,"id_clase_asiento":"CP2","no_clase_asiento":"Asiento compartido piso 02","va_precio":85.0}]} 
+2025-10-15 04:28:46.6514 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/reservar-asiento JsonEntrada: {
+    "id_programacion_padre":900283,
+    "id_asiento_venta":35467554,
+    "nu_asiento":8
+}
+ 
+2025-10-15 04:28:46.6584 INFO loggerendpoint {
+    "id_programacion_padre":900283,
+    "id_asiento_venta":35467554,
+    "nu_asiento":8
+}
+ 
+2025-10-15 04:28:46.8203 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Asiento Bloqueado correctamente","Data":{"CodRespuesta":0,"Mensaje":"Asiento Bloqueado correctamente"}} 
+2025-10-15 04:30:08.8144 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/confirmar-venta JsonEntrada: {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":76235647,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005"
+
+}
+ 
+2025-10-15 04:30:08.8144 INFO loggerendpoint {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":76235647,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005"
+
+}
+ 
+2025-10-15 04:30:09.0997 ERROR loggerendpoint {"Codigoresultado":-1,"Resultado":"ERR","Data":"\"Debe declarar la variable escalar '@NO_PERSONA'.\""} 
+2025-10-15 04:39:31.6815 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/confirmar-venta JsonEntrada: {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":76235647,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 
+2025-10-15 04:39:31.7340 INFO loggerendpoint {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":76235647,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 
+2025-10-15 04:39:33.2788 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Venta Registrada correctamente","Data":{"id_cabecera_venta":7721496,"id_venta":8262558,"id_pedido":3479401,"CodRespuesta":0,"Mensaje":"Venta Registrada correctamente"}} 
+2025-10-15 04:44:14.4094 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:44:14.4094 INFO loggerendpoint {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:44:14.6450 ERROR loggerendpoint {"Codigoresultado":-1,"Resultado":"ERR","Data":"\"El nombre de variable '@ID_TIPO_DOCUMENTO' ya se ha declarado. Los nombres de variable deben ser únicos en cada lote de consultas o procedimiento almacenado.\\r\\nDebe declarar la variable escalar '@ID_PERSONA'.\\r\\nDebe declarar la variable escalar '@ID_PERSONA'.\\r\\nDebe declarar la variable escalar '@NO_PERSONA'.\\r\\nDebe declarar la variable escalar '@ID_PERSONA'.\\r\\nDebe declarar la variable escalar '@ID_PERSONA'.\\r\\nDebe declarar la variable escalar '@ID_PERSONA'.\\r\\nDebe declarar la variable escalar '@ID_PERSONA_REMITENTE'.\""} 
+2025-10-15 04:46:18.4768 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:46:18.4768 INFO loggerendpoint {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:46:18.7129 ERROR loggerendpoint {"Codigoresultado":-1,"Resultado":"ERR","Data":"\"El nombre de variable '@ID_PASAJERO' ya se ha declarado. Los nombres de variable deben ser únicos en cada lote de consultas o procedimiento almacenado.\\r\\nDebe declarar la variable escalar '@NO_PERSONA'.\""} 
+2025-10-15 04:46:55.9879 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:46:55.9879 INFO loggerendpoint {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:46:56.1861 ERROR loggerendpoint {"Codigoresultado":-1,"Resultado":"ERR","Data":"\"Debe declarar la variable escalar '@NO_PERSONA'.\""} 
+2025-10-15 04:49:01.5592 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:49:01.5592 INFO loggerendpoint {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:49:01.8090 ERROR loggerendpoint {"Codigoresultado":-1,"Resultado":"ERR","Data":"\"El nombre de columna 'ID_PERSONA_REMITENTE' se ha especificado más de una vez en la cláusula SET o en la lista de columnas de una cláusula INSERT. No se puede asignar más de un valor a una columna en la misma cláusula. Modifique la cláusula para asegurarse de que cada columna se actualiza solo una vez. Si esta instrucción actualiza o inserta columnas en una vista, los alias de columna pueden la duplicación en el código.\""} 
+2025-10-15 04:49:55.9551 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:49:55.9551 INFO loggerendpoint {
+    "id_venta":8262553,
+    "id_asiento_venta":35467551,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":4,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:49:56.1417 INFO loggerendpoint {"Codigoresultado":1,"Resultado":"Asiento ya no esta disponible","Data":{"id_comprobante_pago":0,"id_detalle":0,"id_boleto":0,"CodRespuesta":1,"Mensaje":"Asiento ya no esta disponible"}} 
+2025-10-15 04:51:23.8895 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262553,
+    "id_asiento_venta":35467554,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":8,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:51:23.8895 INFO loggerendpoint {
+    "id_venta":8262553,
+    "id_asiento_venta":35467554,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":8,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 04:51:24.0674 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Boleto Registrado correctamente","Data":{"id_comprobante_pago":11264872,"id_detalle":11249341,"id_boleto":10367668,"CodRespuesta":0,"Mensaje":"Boleto Registrado correctamente"}} 
+2025-10-15 04:52:10.9616 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/tracking JsonEntrada: {
+    "id_asiento_venta":35467554,
+    "nu_asiento":8,
+    "id_usuario":2841,
+    "id_boleto":10367668,
+    "va_venta":130.000,
+    "numero_operacion":"100130103",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ELIECER ANTONIO",
+    "id_destino":7,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":1,
+    "id_programacion":900283
+}
+ 
+2025-10-15 04:52:10.9616 INFO loggerendpoint {
+    "id_asiento_venta":35467554,
+    "nu_asiento":8,
+    "id_usuario":2841,
+    "id_boleto":10367668,
+    "va_venta":130.000,
+    "numero_operacion":"100130103",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ELIECER ANTONIO",
+    "id_destino":7,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":1,
+    "id_programacion":900283
+}
+ 
+2025-10-15 04:52:11.1193 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Tracking Registrada correctamente","Data":{"id_log_auditoria":15259712,"id_tracking_boleto":23117461,"id_tracking_asiento":53595496,"CodRespuesta":0,"Mensaje":"Tracking Registrada correctamente"}} 
+2025-10-15 05:13:30.0933 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/reservar-asiento JsonEntrada: {
+    "id_programacion_padre":900283,
+    "id_asiento_venta":35467555,
+    "nu_asiento":12
+}
+ 
+2025-10-15 05:13:30.0933 INFO loggerendpoint {
+    "id_programacion_padre":900283,
+    "id_asiento_venta":35467555,
+    "nu_asiento":12
+}
+ 
+2025-10-15 05:13:30.5314 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Asiento Bloqueado correctamente","Data":{"CodRespuesta":0,"Mensaje":"Asiento Bloqueado correctamente"}} 
+2025-10-15 05:14:26.1379 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/confirmar-venta JsonEntrada: {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 
+2025-10-15 05:14:26.1379 INFO loggerendpoint {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 
+2025-10-15 05:14:26.2821 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Venta Registrada correctamente","Data":{"id_cabecera_venta":7721497,"id_venta":8262559,"id_pedido":3479402,"CodRespuesta":0,"Mensaje":"Venta Registrada correctamente"}} 
+2025-10-15 05:16:53.2151 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262559,
+    "id_asiento_venta":35467555,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":12,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 05:16:53.2151 INFO loggerendpoint {
+    "id_venta":8262559,
+    "id_asiento_venta":35467555,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831-0",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":12,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 05:16:53.4654 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Boleto Registrado correctamente","Data":{"id_comprobante_pago":11264873,"id_detalle":11249342,"id_boleto":10367669,"CodRespuesta":0,"Mensaje":"Boleto Registrado correctamente"}} 
+2025-10-15 05:21:05.1629 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/reservar-asiento JsonEntrada: {
+    "id_programacion_padre":900283,
+    "id_asiento_venta":35467556,
+    "nu_asiento":16
+}
+ 
+2025-10-15 05:21:05.2758 INFO loggerendpoint {
+    "id_programacion_padre":900283,
+    "id_asiento_venta":35467556,
+    "nu_asiento":16
+}
+ 
+2025-10-15 05:21:07.0820 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Asiento Bloqueado correctamente","Data":{"CodRespuesta":0,"Mensaje":"Asiento Bloqueado correctamente"}} 
+2025-10-15 05:22:19.7637 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/confirmar-venta JsonEntrada: {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 
+2025-10-15 05:22:19.7637 INFO loggerendpoint {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":900283,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831005",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO"
+
+}
+ 
+2025-10-15 05:22:19.8992 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Venta Registrada correctamente","Data":{"id_cabecera_venta":7721498,"id_venta":8262560,"id_pedido":3479403,"id_persona_remitente":32555229,"CodRespuesta":0,"Mensaje":"Venta Registrada correctamente"}} 
+2025-10-15 05:23:16.4951 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/generar-boleto JsonEntrada: {
+    "id_venta":8262560,
+    "id_asiento_venta":35467556,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831005",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":16,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 05:23:16.4951 INFO loggerendpoint {
+    "id_venta":8262560,
+    "id_asiento_venta":35467556,
+    "va_venta":130.000,
+    "co_tipo_tarjeta":"VIS",
+    "am_pasajero":"GARRIDO",
+    "ap_pasajero":"CANALES",
+    "no_pasajero":"ELIECER ANTONIO",
+    "nu_documento":"14318831005",
+    "id_pasajero":null,
+    "id_destino":7,
+    "id_ciudad_destino":3,
+    "id_ciudad_origen":1,
+    "id_usuario":2841,
+    "de_total_letras":"TREINTA Y CINCO 00/100 SOLES.",
+    "no_oficina_venta":"ONLINE",
+    "nu_asiento":16,
+    "nu_ip_venta":"",
+    "id_programacion":900283,
+    "nu_ruc":"14318831002",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_tipo_documento": 1,
+    "id_persona_remitente":32555229
+}
+ 
+2025-10-15 05:23:16.6902 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Boleto Registrado correctamente","Data":{"id_comprobante_pago":11264874,"id_detalle":11249343,"id_boleto":10367670,"CodRespuesta":0,"Mensaje":"Boleto Registrado correctamente"}} 
+2025-10-15 05:24:20.4392 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/tracking JsonEntrada: {
+    "id_asiento_venta":35467556,
+    "nu_asiento":16,
+    "id_usuario":2841,
+    "id_boleto":10367670,
+    "va_venta":130.000,
+    "numero_operacion":"100130103",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ELIECER ANTONIO",
+    "id_destino":7,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":1,
+    "id_programacion":900283
+}
+ 
+2025-10-15 05:24:20.4392 INFO loggerendpoint {
+    "id_asiento_venta":35467556,
+    "nu_asiento":16,
+    "id_usuario":2841,
+    "id_boleto":10367670,
+    "va_venta":130.000,
+    "numero_operacion":"100130103",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ELIECER ANTONIO",
+    "id_destino":7,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":1,
+    "id_programacion":900283
+}
+ 
+2025-10-15 05:24:20.5740 INFO loggerendpoint {"Codigoresultado":0,"Resultado":"Tracking Registrada correctamente","Data":{"id_log_auditoria":15259713,"id_tracking_boleto":23117462,"id_tracking_asiento":53595497,"CodRespuesta":0,"Mensaje":"Tracking Registrada correctamente"}} 
