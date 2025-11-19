@@ -46,7 +46,9 @@ ittsa-kupos-api/
   IttsabusAPI.Entidades/
   IttsabusAPI.Manager/
   packages/
-  ...
+
+
+  
 ## 3. Abrir la solución en Visual Studio
 
 1. Abre Visual Studio 2022.
@@ -69,11 +71,7 @@ Archivo Web.config dentro del proyecto IttsabusAPI.EndPoint.
 1. Abre el archivo de configuración correspondiente:
 2. Web.config
 3. Busca la sección de connectionStrings o el bloque donde se definan las cadenas de conexión, por ejemplo:
-   <connectionStrings>
-  <add name="KuposDb"
-       connectionString="Data Source=SERVIDOR;Initial Catalog=NombreBD;User ID=usuario;Password=clave;"
-       providerName="System.Data.SqlClient" />
-  </connectionStrings>
+   <connectionStrings> <add name="KuposDb" connectionString="Data Source=SERVIDOR;Initial Catalog=NombreBD;User ID=usuario;Password=clave;" providerName="System.Data.SqlClient" /> </connectionStrings>
 
 ## 6. Seleccionar el proyecto de inicio y perfil de ejecución
 
