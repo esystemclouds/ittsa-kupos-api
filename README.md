@@ -69,12 +69,11 @@ Archivo Web.config dentro del proyecto IttsabusAPI.EndPoint.
 1. Abre el archivo de configuración correspondiente:
 2. Web.config
 3. Busca la sección de connectionStrings o el bloque donde se definan las cadenas de conexión, por ejemplo:
-   ```bash
    <connectionStrings>
   <add name="KuposDb"
        connectionString="Data Source=SERVIDOR;Initial Catalog=NombreBD;User ID=usuario;Password=clave;"
        providerName="System.Data.SqlClient" />
-</connectionStrings>
+  </connectionStrings>
 
 ## 6. Seleccionar el proyecto de inicio y perfil de ejecución
 
