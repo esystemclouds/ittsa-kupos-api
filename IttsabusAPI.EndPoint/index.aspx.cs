@@ -17,7 +17,8 @@ namespace IttsabusAPI.EndPoint
 
         protected void Test(object sender, EventArgs e)
         {
-            var text= FuncionesComunes.Encrypt("ITTSABUS_ENDPOINT");
+            //var text= FuncionesComunes.Encrypt("ITTSABUS_ENDPOINT");
+            var text = FuncionesComunes.Encrypt("VICSA2FA_ENDPOINT");
         }
     }
 }

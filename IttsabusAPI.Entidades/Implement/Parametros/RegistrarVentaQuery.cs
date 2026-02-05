@@ -32,5 +32,10 @@ namespace IttsabusAPI.Entidades
         public string am_pasajero { get; set; }
         public string ap_pasajero { get; set; }
         public string no_pasajero { get; set; }
+
+        public string de_email { get; set; }
+        public string de_telefono { get; set; }
+        public string fe_nacimiento { get; set; }
+        public string de_sexo { get; set; }
     }
 }

@@ -1,0 +1,342 @@
+2026-02-05 02:10:23.7273 INFO loggerendpoint RequestUri: http://localhost:64584/api/v1/confirmar-venta JsonEntrada: {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":929166,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":53,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":4,
+    "nu_ruc":"14318831108",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831108",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO",
+    "de_email":"ecanales@esystem.cl",
+    "registro.de_telefono":"90522357",
+    "registro.fe_nacimiento":"25/07/1976",
+    "registro.de_sexo":"M"
+
+
+}
+ 
+2026-02-05 02:10:23.7871 INFO loggerendpoint {
+    "id_punto_venta":1,
+    "id_punto_venta_registro":1,
+    "nu_boleto_venta":1,
+    "va_monto_total":130,
+    "nu_operacion":"testkp001",
+    "co_tipo_tarjeta":"VIS",
+    "id_programacion_ida":929166,
+    "id_programacion_retorno":null,
+    "nu_pedido_safety":"KPOO1",
+    "nu_referencia_safety":"KP001",
+    "id_pagador":null,
+    "id_destino":53,
+    "id_ciudad_origen":3,
+    "id_ciudad_destino":4,
+    "nu_ruc":"14318831108",
+    "no_razon_social":"ESYSTEM LIMITADA",
+    "de_direccion":"DIRECCION AV 1",
+    "id_usuario":2841,
+    "id_tipo_documento": 1,
+    "nu_documento":"14318831108",
+    "am_pasajero":"CANALES",
+    "ap_pasajero":"GARRIDO",
+    "no_pasajero":"ANTONIO",
+    "de_email":"ecanales@esystem.cl",
+    "registro.de_telefono":"90522357",
+    "registro.fe_nacimiento":"25/07/1976",
+    "registro.de_sexo":"M"
+
+
+}
+ 
+2026-02-05 02:10:23.9080 INFO loggerendpoint 
+				DECLARE
+					@ID_PUNTO_VENTA INT=1, --validar cual va a ser para kupos
+					@ID_PUNTO_VENTA_REGISTRO INT=1,
+					@NU_BOLETO_VENTA INT =1, -- cantidad de asientos vendidos
+					@VA_MONTO_TOTAL NUMERIC(18,4)=130,
+					@NU_OPERACION VARCHAR(50)='testkp001', --numero comprobante pago tarjeta
+					@CO_TIPO_TARJETA VARCHAR(50) = 'VIS', --tipo tarjeta MAStercard, VISa
+					@ID_PROGRAMACION_IDA INT  = 929166,
+					@ID_PROGRAMACION_RETORNO INT  = NULL,
+					@NU_PEDIDO_SAFETY VARCHAR(50) = 'KPOO1',
+					@NU_REFERENCIA_SAFETY VARCHAR(50) = 'KP001',
+					@ID_PAGADOR2 VARCHAR(20)= 'NULL',
+					@ID_DESTINO INT = 53,
+					@ID_CIUDAD_ORIGEN INT = 3,
+					@ID_CIUDAD_DESTINO INT = 4,
+
+					@DE_EMAIL VARCHAR(100) = 'ecanales@esystem.cl',
+					@DE_TELEFONO  VARCHAR(50) = '',
+					@FE_NACIMIENTO DATETIME = '',
+					@DE_SEXO CHAR(1)=''
+				-------------------
+				DECLARE
+					@ID_PAGADOR INT,
+					@ID_CABECERA_VENTA INT,
+					@ID_VENTA INT,
+	
+					@fecharegistro DATETIME=GETDATE(),
+					@CO_CANAL_VENTA VARCHAR(30)='ONL',
+					@TIPO_PAGO VARCHAR(30)='CON',
+					@ID_FORMA_PAGO VARCHAR(30)='TRJ'
+
+				BEGIN TRY
+					DECLARE @NU_PEDIDO INT
+					BEGIN TRAN
+						SELECT @NU_PEDIDO = VA_VALOR  
+						FROM SGTX_PARAMETRO 
+						WHERE DE_PARAMETRO = 'PARAM_NUM_PEDIDO_SAFETY'
+	
+						UPDATE SGTX_PARAMETRO
+						SET VA_VALOR = VA_VALOR + 1 
+						WHERE DE_PARAMETRO = 'PARAM_NUM_PEDIDO_SAFETY'
+					COMMIT TRAN
+
+					BEGIN TRAN
+						IF @ID_PUNTO_VENTA=0
+							SET @ID_PUNTO_VENTA = NULL
+
+						IF @ID_PUNTO_VENTA_REGISTRO=0
+							SET @ID_PUNTO_VENTA_REGISTRO = NULL
+						--Registro venta boleto (cabecera) ---------------------------------
+						INSERT INTO VTTC_VENTA (
+							ID_AREA, 
+							ID_PUNTO_VENTA, 
+							FE_CREA_REGISTRO, 
+							NU_BOLETOS, 
+							TIPO_PAGO, 
+							VA_MONTO_TOTAL, 
+							CO_CANAL_VENTA, 
+							ID_FORMA_PAGO
+						)VALUES (
+							'PSJ',
+							@ID_PUNTO_VENTA,
+							@fecharegistro,
+							@NU_BOLETO_VENTA,
+							@TIPO_PAGO,
+							@VA_MONTO_TOTAL,
+							@CO_CANAL_VENTA,
+							@ID_FORMA_PAGO --venta tarjeta
+						)
+
+						SELECT @ID_CABECERA_VENTA = @@IDENTITY 
+
+						--------------------------------------------------------------
+							DECLARE 
+								@NU_RUC VARCHAR(11)='14318831108',
+								@DE_RAZONSOCIAL VARCHAR(250)='ESYSTEM LIMITADA',
+								@DE_DIRECCION VARCHAR(250)='DIRECCION AV 1',
+								@ID_CREA_REGISTRO INT=2841,
+								@ID_MOD_REGISTRO INT=2841,
+								@ES_EMPRESA CHAR(1)='A'
+
+								DECLARE 
+									@ID_EMPRESA INT = NULL,
+									@CO_TIPO_COMPROBANTE VARCHAR(20) = 'BOL'
+								IF @NU_RUC<>''
+								BEGIN
+									SELECT @CO_TIPO_COMPROBANTE='FAC'
+
+									IF EXISTS(SELECT 1 FROM ADTM_EMPRESA WHERE NU_RUC=@NU_RUC)
+									BEGIN
+										SELECT @ID_EMPRESA=ID_EMPRESA FROM ADTM_EMPRESA WHERE NU_RUC=@NU_RUC
+										UPDATE ADTM_EMPRESA
+										SET DE_DIRECCION = @DE_DIRECCION,
+											ID_MOD_REGISTRO=@ID_MOD_REGISTRO,
+											FE_MOD_REGISTRO=GETDATE()
+										WHERE ID_EMPRESA=@ID_EMPRESA
+		
+									END
+									ELSE
+									BEGIN
+									  INSERT INTO ADTM_EMPRESA
+									  ([NU_RUC],[DE_RAZONSOCIAL],[DE_DIRECCION],[FE_CREA_REGISTRO],[ID_CREA_REGISTRO],[ID_MOD_REGISTRO],[ES_EMPRESA])
+									  VALUES(
+											  @NU_RUC,
+											  @DE_RAZONSOCIAL,
+											  @DE_DIRECCION,
+											  GETDATE(),
+											  @ID_CREA_REGISTRO,
+											  @ID_MOD_REGISTRO,
+											  @ES_EMPRESA
+										  )
+
+									  SELECT @ID_EMPRESA=@@IDENTITY
+									END
+								END
+						-------------------------------------------------------------------
+						--Crear persona si no existe -------------------------------------
+                        DECLARE 
+							@ID_TIPO_DOCUMENTO INT = 1,
+							@NU_DOCUMENTO VARCHAR(20) = '14318831108',
+							@NO_PERSONA VARCHAR(100) = 'CANALES',
+							@AP_PERSONA VARCHAR(100) = 'GARRIDO',
+							@AM_PERSONA VARCHAR(100) = 'ANTONIO',
+							@ID_PERSONA INT = NULL
+							
+							IF EXISTS(SELECT 1 FROM ADTM_PERSONA AS ap WHERE NU_DOCUMENTO=@NU_DOCUMENTO AND ID_TIPO_DOCUMENTO=@ID_TIPO_DOCUMENTO)
+							BEGIN
+								SELECT @ID_PERSONA=ap.ID_PERSONA FROM ADTM_PERSONA AS ap WHERE NU_DOCUMENTO=@NU_DOCUMENTO AND ID_TIPO_DOCUMENTO=@ID_TIPO_DOCUMENTO
+							END
+							ELSE
+							BEGIN
+								INSERT INTO ADTM_PERSONA (NO_PERSONA,AP_PERSONA,AM_PERSONA,ID_TIPO_DOCUMENTO,NU_DOCUMENTO,DE_SEXO,FE_CREA_REGISTRO,ID_CREA_REGISTRO,FE_MOD_REGISTRO,ID_MOD_REGISTRO,DE_EMAIL, DE_TELEFONO,FE_NACIMIENTO)
+								VALUES (@NO_PERSONA,@AP_PERSONA,@AM_PERSONA,@ID_TIPO_DOCUMENTO,@NU_DOCUMENTO,@DE_SEXO, GETDATE(),@ID_CREA_REGISTRO,GETDATE(),@ID_CREA_REGISTRO,@DE_EMAIL, @DE_TELEFONO,@FE_NACIMIENTO)
+    
+								SELECT @ID_PERSONA=@@IDENTITY
+								
+								INSERT INTO VTTM_PASAJERO (ID_PERSONA,FE_CREA_REGISTRO,ID_CREA_REGISTRO)
+								VALUES (@ID_PERSONA,GETDATE(),@ID_CREA_REGISTRO)
+			
+							END
+							
+						SELECT @ID_PAGADOR = @ID_PERSONA
+						-------------------------------------------------------------------
+						--Registro venta boleto (cabecera relacionada)---------------------
+						INSERT INTO VTTM_VENTA (
+							ID_PUNTO_VENTA, 
+							ID_PUNTO_VENTA_REGISTRO,
+							CO_TIPO_VENTA, 
+							FE_VENTA, 
+							IN_COBRO_ASUMIDO_X_EMPRESA, 
+							IN_MULTIPLE, 
+							IN_VENTA_MULTIPLE, 
+							NU_BOLETO_VENTA, 
+							ID_CABECERA_VENTA, 
+							CO_CANAL_VENTA,
+							ID_EMPRESA,
+							ID_PERSONA,
+							VA_TOTAL,
+							VA_PRECIO_COBRO
+						) VALUES (
+							@ID_PUNTO_VENTA,
+							@ID_PUNTO_VENTA_REGISTRO,
+							'DIR',
+							@fecharegistro,
+							0,
+							1,
+							1,
+							@NU_BOLETO_VENTA, 
+							@ID_CABECERA_VENTA,
+							@CO_CANAL_VENTA,
+							@ID_EMPRESA,
+							@ID_PERSONA,
+							@VA_MONTO_TOTAL,
+							@VA_MONTO_TOTAL		
+						)
+
+						SELECT @ID_VENTA = @@IDENTITY
+
+						
+						----Registro pagos comprobante -----------------------
+						--insert into VTTM_PAGOS (
+						--	FE_CREA_REGISTRO, 
+						--	MONTO, 
+						--	NU_OPERACION, 
+						--	ID_CABECERA_VENTA, 
+						--	ID_FORMA_PAGO, 
+						--	CO_TIPO_TARJETA) 
+						--values (
+						--	@fecharegistro,
+						--	@VA_MONTO_TOTAL,
+						--	@NU_OPERACION,
+						--	@ID_CABECERA_VENTA,
+						--	@ID_FORMA_PAGO,
+						--	@CO_TIPO_TARJETA
+						--)
+						
+
+						--Registro Pedido Online Safety -----------------------
+
+						
+						DECLARE @DE_DESTINO_ITINERARIO VARCHAR(100)
+						DECLARE @DE_ORIGEN_ITINERARIO VARCHAR(100)
+
+
+						SELECT @DE_DESTINO_ITINERARIO=ac.NOMBRE  FROM API_CIUDADES AS ac WHERE ac.ID_CIUDADES=@ID_CIUDAD_DESTINO
+						SELECT @DE_ORIGEN_ITINERARIO=ac.NOMBRE  FROM API_CIUDADES AS ac WHERE ac.ID_CIUDADES=@ID_CIUDAD_ORIGEN
+						
+						DECLARE
+							@ID_OFICINA_ORIGEN INT,
+							@ID_OFICINA_DESTINO INT,
+							@ID_AGENCIA_ORIGEN INT,
+							@ID_AGENCIA_DESTINO INT
+
+						SELECT @ID_OFICINA_ORIGEN=pd.ID_OFICINA_ORIGEN,@ID_OFICINA_DESTINO=pd.ID_OFICINA_DESTINO FROM PRTM_DESTINO AS pd WHERE pd.ID_DESTINO= @ID_DESTINO
+	
+						SELECT @ID_AGENCIA_ORIGEN=ao.ID_AGENCIA FROM ADTM_OFICINA AS ao WHERE ao.ID_OFICINA=@ID_OFICINA_ORIGEN
+						SELECT @ID_AGENCIA_DESTINO=ao.ID_AGENCIA FROM ADTM_OFICINA AS ao WHERE ao.ID_OFICINA=@ID_OFICINA_DESTINO
+	
+						SELECT @DE_ORIGEN_ITINERARIO=aa.NO_AGENCIA FROM ADTM_AGENCIA AS aa WHERE aa.ID_AGENCIA=@ID_AGENCIA_ORIGEN
+						SELECT @DE_DESTINO_ITINERARIO=aa.NO_AGENCIA FROM ADTM_AGENCIA AS aa WHERE aa.ID_AGENCIA=@ID_AGENCIA_DESTINO
+
+						DECLARE @ID_PEDIDO INT
+
+						INSERT INTO VTTM_PEDIDO_ONLINE
+						(
+							FE_PEDIDO,
+							CO_ERROR, 
+							CO_ESTADO,
+							CO_TIPO_PEDIDO, 
+							NU_PEDIDO,
+							FE_EXPIRACION, 
+							VA_PAGO, 
+							CO_MONEDA,
+							ID_VENTA,
+							FE_PAGO, 
+							NU_PEDIDO_SAFETY, 
+							NU_REFERENCIA_SAFETY, 
+							ID_PROGRAMACION_IDA,
+							ID_PROGRAMACION_RETORNO,
+							ID_PAGADOR,
+							DE_ORIGEN_ITINERARIO,
+							DE_DESTINO_ITINERARIO
+						)
+						VALUES(
+							@fecharegistro,
+							0,
+							'PAC',
+							'KUPOS',
+							@NU_PEDIDO,
+							DATEADD(hh,2,@fecharegistro),
+							@VA_MONTO_TOTAL,
+							'PEN',
+							@ID_VENTA,
+							@fecharegistro,
+							@NU_PEDIDO_SAFETY,
+							@NU_REFERENCIA_SAFETY,
+							@ID_PROGRAMACION_IDA,
+							@ID_PROGRAMACION_RETORNO,
+							@ID_PAGADOR,
+							@DE_ORIGEN_ITINERARIO,
+							@DE_DESTINO_ITINERARIO
+						)
+
+						SELECT @ID_PEDIDO = @@IDENTITY
+
+						
+								
+
+					COMMIT TRAN
+					SELECT 0 AS CodRespuesta, @ID_CABECERA_VENTA AS ID_CABECERA_VENTA, @ID_VENTA AS ID_VENTA, @ID_PEDIDO AS ID_PEDIDO, @ID_PERSONA AS ID_PERSONA_REMITENTE,  'Venta Registrada correctamente' AS Mensaje
+				END TRY 
+					BEGIN CATCH
+						SELECT @@ERROR AS CodRespuesta, 0 AS ID_CABECERA_VENTA , 0 AS ID_VENTA, 0 AS ID_PEDIDO,0 AS ID_PERSONA_REMITENTE,  ERROR_MESSAGE() AS Mensaje
+						ROLLBACK TRAN
+		
+					END CATCH
+					 

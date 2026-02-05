@@ -1,4 +1,5 @@
 ﻿using IttsabusAPI.Entidades;
+using Newtonsoft.Json;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -297,7 +298,12 @@ namespace IttsabusAPI.DataAccess
 					@ID_PAGADOR2 VARCHAR(20)= '{10}',
 					@ID_DESTINO INT = {11},
 					@ID_CIUDAD_ORIGEN INT = {12},
-					@ID_CIUDAD_DESTINO INT = {13}
+					@ID_CIUDAD_DESTINO INT = {13},
+
+					@DE_EMAIL VARCHAR(100) = '{24}',
+					@DE_TELEFONO  VARCHAR(50) = '{25}',
+					@FE_NACIMIENTO DATETIME = '{26}',
+					@DE_SEXO CHAR(1)='{27}'
 				-------------------
 				DECLARE
 					@ID_PAGADOR INT,
@@ -409,8 +415,8 @@ namespace IttsabusAPI.DataAccess
 							END
 							ELSE
 							BEGIN
-								INSERT INTO ADTM_PERSONA (NO_PERSONA,AP_PERSONA,AM_PERSONA,ID_TIPO_DOCUMENTO,NU_DOCUMENTO,DE_SEXO,FE_CREA_REGISTRO,ID_CREA_REGISTRO,FE_MOD_REGISTRO,ID_MOD_REGISTRO)
-								VALUES (@NO_PERSONA,@AP_PERSONA,@AM_PERSONA,@ID_TIPO_DOCUMENTO,@NU_DOCUMENTO,'M', GETDATE(),@ID_CREA_REGISTRO,GETDATE(),@ID_CREA_REGISTRO)
+								INSERT INTO ADTM_PERSONA (NO_PERSONA,AP_PERSONA,AM_PERSONA,ID_TIPO_DOCUMENTO,NU_DOCUMENTO,DE_SEXO,FE_CREA_REGISTRO,ID_CREA_REGISTRO,FE_MOD_REGISTRO,ID_MOD_REGISTRO,DE_EMAIL, DE_TELEFONO,FE_NACIMIENTO)
+								VALUES (@NO_PERSONA,@AP_PERSONA,@AM_PERSONA,@ID_TIPO_DOCUMENTO,@NU_DOCUMENTO,@DE_SEXO, GETDATE(),@ID_CREA_REGISTRO,GETDATE(),@ID_CREA_REGISTRO,@DE_EMAIL, @DE_TELEFONO,@FE_NACIMIENTO)
     
 								SELECT @ID_PERSONA=@@IDENTITY
 								
@@ -579,9 +585,14 @@ namespace IttsabusAPI.DataAccess
 				registro.nu_documento,
 				registro.am_pasajero,
 				registro.ap_pasajero,
-				registro.no_pasajero
+				registro.no_pasajero,
+				registro.de_email,
+				registro.de_telefono,
+				registro.fe_nacimiento,
+				registro.de_sexo
                 );
             var db = new cnnDatos();
+            logger.Info(sCmd);
             string sCnn = db.Database.Connection.ConnectionString;
             string JSONresult = Repo_Database.EjecutaCmd(sCnn, sCmd);
             JSONresult = JSONresult.Substring(1, JSONresult.Length - 2);
@@ -617,8 +628,13 @@ namespace IttsabusAPI.DataAccess
 						@NU_IP_VENTA VARCHAR(100)='{17}',
 						@ID_PROGRAMACION INT={18},
 						@ID_PEDIDO INT ={26},
-						@MO_ASIENTO VARCHAR(10) = '{27}'
-	
+						@MO_ASIENTO VARCHAR(10) = '{27}',
+
+						@DE_EMAIL VARCHAR(100) = '{28}',
+						@DE_TELEFONO  VARCHAR(50) = '{29}',
+						@FE_NACIMIENTO DATETIME = '{30}',
+						@DE_SEXO CHAR(1)='{31}'
+						
 					BEGIN TRY
 						BEGIN TRAN	
 							DECLARE
@@ -720,7 +736,7 @@ namespace IttsabusAPI.DataAccess
 									  SELECT @ID_EMPRESA=@@IDENTITY
 								  END
 							END
-							--------------------------------------------------------------		
+							------------------------------------------------------------------		
 							--Crear persona si no existe -------------------------------------
 							DECLARE 
 								@ID_TIPO_DOCUMENTO INT = {24},
@@ -735,8 +751,8 @@ namespace IttsabusAPI.DataAccess
 								END
 								ELSE
 								BEGIN
-									INSERT INTO ADTM_PERSONA (NO_PERSONA,AP_PERSONA,AM_PERSONA,ID_TIPO_DOCUMENTO,NU_DOCUMENTO,DE_SEXO,FE_CREA_REGISTRO,ID_CREA_REGISTRO,FE_MOD_REGISTRO,ID_MOD_REGISTRO)
-									VALUES (@NO_PASAJERO,@AP_PASAJERO,@AM_PASAJERO,@ID_TIPO_DOCUMENTO,@NU_DOCUMENTO,'M', GETDATE(),@ID_CREA_REGISTRO,GETDATE(),@ID_CREA_REGISTRO)
+									INSERT INTO ADTM_PERSONA (NO_PERSONA,AP_PERSONA,AM_PERSONA,ID_TIPO_DOCUMENTO,NU_DOCUMENTO,DE_SEXO,FE_CREA_REGISTRO,ID_CREA_REGISTRO,FE_MOD_REGISTRO,ID_MOD_REGISTRO,DE_EMAIL, DE_TELEFONO,FE_NACIMIENTO)
+									VALUES (@NO_PASAJERO,@AP_PASAJERO,@AM_PASAJERO,@ID_TIPO_DOCUMENTO,@NU_DOCUMENTO,@DE_SEXO, GETDATE(),@ID_CREA_REGISTRO,GETDATE(),@ID_CREA_REGISTRO,@DE_EMAIL, @DE_TELEFONO,@FE_NACIMIENTO)
     
 									SELECT @ID_PERSONA=@@IDENTITY
 								
@@ -934,7 +950,11 @@ namespace IttsabusAPI.DataAccess
                 registro.id_tipo_documento,
 				registro.id_persona_remitente,
 				registro.id_pedido,
-				registro.mo_asiento
+				registro.mo_asiento,
+                registro.de_email,
+                registro.de_telefono,
+                registro.fe_nacimiento,
+                registro.de_sexo
                 );
             var db = new cnnDatos();
             string sCnn = db.Database.Connection.ConnectionString;

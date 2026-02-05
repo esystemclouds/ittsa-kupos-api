@@ -15,7 +15,7 @@
             <div class="container p-3">
                 <h1>EndPoint</h1>
                 <h3>Kupos - IttSabus v1.0</h3>
-                <asp:LinkButton ID="LinkButton1" Visible="false" runat="server" OnClick="Test">LinkButton</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton1" Visible="true" runat="server" OnClick="Test">LinkButton</asp:LinkButton>
             </div>
         </div>
         </main>
