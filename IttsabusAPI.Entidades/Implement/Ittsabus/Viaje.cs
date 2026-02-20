@@ -33,5 +33,9 @@ namespace IttsabusAPI.Entidades
         public string dir_origen { get; set; }
         public string dir_destino { get; set; }
         public List<Tramo> tramos { get; set; }
+
+        public bool r_petfriendly { get; set; }
+        public int nu_cupos_petfriendly { get; set; }
+        public bool in_cupo_pet_completo { get; set; }
     }
 }

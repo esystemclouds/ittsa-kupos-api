@@ -21,5 +21,6 @@ namespace IttsabusAPI.Entidades
         public string no_clase_asiento {get;set;}
         public decimal va_precio { get; set; }
 
+        public bool es_mascota { get; set; }
     }
 }
